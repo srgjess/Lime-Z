@@ -1,0 +1,9 @@
+# Lime-Z
+noun1 = input("Type a singular noun and hit enter")
+noun2 = input("Type another noun and hit enter")
+adjective1 = input("Type an adjective and hit enter")
+noun3 = input("Type a plural noun and hit enter")
+
+print ("The " noun1 + " was walking in the park, humming.")
+print ("The day was bright the sun was shining, and the " + noun2 + " were singing.")
+print ("Suddenly, two " + adjective1  + noun3 + " ran by.")
