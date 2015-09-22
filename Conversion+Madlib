@@ -1,0 +1,26 @@
+def main():
+    for i in range(5): 
+        celsius = eval(input("What is the Celsius temperature? "))
+        fahrenheit = 9/5 * celsius + 32
+        print("The temperature is", fahrenheit, "degrees Fahrenheit.")
+main()
+
+def second():
+    kilometers = eval(input("How many kilometers?" ))
+    miles = kilometers * 0.62137
+    print("The Number of Miles is", miles)
+second()
+
+def third():
+    noun1 = input("Type a singular noun and hit enter.")
+    songname = input("Type a song name and hit enter.")
+    noun2 = input("Type a plural noun and hit enter.")
+    adjective1 = input("Type an adjective and hit enter.")
+    noun3 = input("Type a plural noun and hit enter.")
+    verb1 = input("Type a verb and hit enter.")
+
+    print ("The " + noun1 + " was walking in the park, humming " + songname)
+    print ("The day was bright the sun was shining, and the " + noun2 + " were singing.")
+    print ("Suddenly, two " + adjective1 + " " +  noun3 + " ran by.")
+    print ("Two dogs " + verb1 + " after me.")
+third()    
