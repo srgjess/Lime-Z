@@ -1,9 +1,0 @@
-# Lime-Z
-import math
-
-def one():
-    height = input("What is the height of the ladder?")
-    x = input("What is the angle of the ladder?")
-    length = height / math.sin(x)
-    print("The length of the ladder is, " + length)
-one()
