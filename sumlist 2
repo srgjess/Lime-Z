@@ -1,1 +1,9 @@
 # Lime-Z
+def two():
+    n = eval(input("How many numbers do you have? "))
+    for i in range(n):
+        m = eval(int(input("What are your numbers?")))
+        sum(m)
+        print("The sum of the list is ", m)
+two()
+    
