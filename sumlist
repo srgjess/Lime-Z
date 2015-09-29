@@ -1,0 +1,8 @@
+# Lime-Z
+def two():
+    n = int(input("how many numbers in your series?"))
+    m = int(input("What are your numbers?"))
+    list(range(1,n))
+    sum(m)
+two()
+    
