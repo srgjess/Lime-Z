@@ -1,0 +1,5 @@
+def two():
+    lettergrades = ["F","F","D","C","B","A"]
+    lettergrades1 = eval(input("What was your score on the quiz?"))
+    print("your grade is", lettergrades1[lettergrades])
+two()
